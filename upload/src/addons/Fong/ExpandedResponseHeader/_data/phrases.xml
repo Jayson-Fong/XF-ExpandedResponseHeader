@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="option.expandedresponseheader_cookie" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Include Staff Cookie]]></phrase>
+  <phrase title="option.expandedresponseheader_headers" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Include Headers]]></phrase>
+  <phrase title="option_explain.expandedresponseheader_cookie" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[If a member is staff, they will receive a <strong>xf_staff</strong> cookie. The cookie name's prefix (xf_) may be different depending on your configuration.]]></phrase>
+  <phrase title="option_explain.expandedresponseheader_headers" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[The following headers will be set for all users:
+<ul>
+<li><strong>Xf-User-Id</strong> - User Id (Integer)</li>
+<li><strong>Xf-Is-Staff</strong> - Staff (Boolean)</li>
+<li><strong>Xf-Is-Banned</strong> - Banned (Boolean)</li>
+</ul>]]></phrase>
+  <phrase title="option_group.expandedresponseheader" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Expanded Response Header]]></phrase>
+  <phrase title="option_group_description.expandedresponseheader" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Include additional response headers for upstream processes to identify your members.]]></phrase>
+</phrases>

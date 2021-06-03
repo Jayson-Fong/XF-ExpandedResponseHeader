@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "",
+    "title": "Expanded Response Header",
+    "description": "Add basic user information to your response headers.",
+    "version_id": 1000010,
+    "version_string": "1.0.0 Alpha",
+    "dev": "Jayson Fong",
+    "dev_url": "https://www.jaysonfong.org",
+    "faq_url": "https://github.com/Jayson-Fong/XF-ExpandedResponseHeader",
+    "support_url": "https://github.com/Jayson-Fong/XF-ExpandedResponseHeader/issues",
+    "extra_urls": [],
+    "require": [],
+    "icon": "fa-id-card"
+}

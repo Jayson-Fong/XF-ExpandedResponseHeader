@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <option option_id="expandedresponseheader_cookie" edit_format="onofftextbox" data_type="array">
+    <default_value>{"enabled":false,"content":""}</default_value>
+    <edit_format_params>onoff=enabled
+value=content</edit_format_params>
+    <sub_options>enabled
+content</sub_options>
+    <relation group_id="expandedresponseheader" display_order="2"/>
+  </option>
+  <option option_id="expandedresponseheader_headers" edit_format="onoff" data_type="boolean">
+    <default_value>1</default_value>
+    <relation group_id="expandedresponseheader" display_order="1"/>
+  </option>
+</options>
