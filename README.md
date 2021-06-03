@@ -4,8 +4,8 @@ Options for this add-on are included in the `Expanded Response Header` group. Yo
 
 Optionally adds the following response headers:
 * `Xf-User-Id` – User Id or 0 (Integer)
-* `Xf-Is-Staff` - Staff (Boolean)
-* `Xf-Is-Banned` - Banned (Boolean)
+* `Xf-Is-Staff` - Staff (Boolean: 1 or 0)
+* `Xf-Is-Banned` - Banned (Boolean: 1 or 0)
 
 Adding response headers can help you filter down who is targeted by rate limiting with services such as Cloudflare, reducing the amount of billed requests. A condition to check if `Xf-User-Id` is `0` or not can be used to determine if a member is a guest. These headers are added to all responses interacting with your XenForo installation; however, note that it does not include static content like images or javascript your website uses.
 
