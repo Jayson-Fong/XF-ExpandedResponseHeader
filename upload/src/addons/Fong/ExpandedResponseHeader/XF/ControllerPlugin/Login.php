@@ -3,22 +3,24 @@
 
 namespace Fong\ExpandedResponseHeader\XF\ControllerPlugin;
 
+use XF;
+use XF\Entity\User;
+
 class Login extends XFCP_Login
 {
 
     /**
-     * @param \XF\Entity\User $user
+     * Sets the staff cookie if enabled.
+     * @param User $user
      * @param $remember
      */
-    public function completeLogin(\XF\Entity\User $user, $remember)
+    public function completeLogin(User $user, $remember)
     {
         parent::completeLogin($user, $remember);
+
         if ($user->is_staff) {
-            /**
-             * $staffCookie['enabled'] : bool
-             * $staffCookie['content'] : string
-             */
-            $staffCookie = \XF::options()->expandedresponseheader_cookie;
+            /** @var bool[]|string[] $staffCookie */
+            $staffCookie = XF::options()->expandedresponseheader_cookie;
             if ($staffCookie['enabled']) {
                 $this->app->response->setCookie('staff', $staffCookie['content']);
             }

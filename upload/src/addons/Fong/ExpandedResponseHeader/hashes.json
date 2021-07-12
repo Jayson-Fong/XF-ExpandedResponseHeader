@@ -1,7 +1,7 @@
 {
-    "src/addons/Fong/ExpandedResponseHeader/addon.json": "749914a02debfba18cedea39ca82ab82ea627e2b610a62a450c9ded386abbf5d",
-    "src/addons/Fong/ExpandedResponseHeader/Listener.php": "9df22f98296f98a5249a090786fa3f54d69f289a9b8f0d37f9362c93c0d1356b",
-    "src/addons/Fong/ExpandedResponseHeader/XF/ControllerPlugin/Login.php": "e7fc265c1673d3b11953cc36d2c297aac169926dfe00b80c89695502b48e5c76",
+    "src/addons/Fong/ExpandedResponseHeader/addon.json": "649c6c4d1c1e0978c9fa3b83f57e419333226d97248669a5a79ca7e9e23f59f7",
+    "src/addons/Fong/ExpandedResponseHeader/Listener.php": "61eb7d4c905fefa9796566d2890118900b66698a7d1dc9f8e51610dc2775da28",
+    "src/addons/Fong/ExpandedResponseHeader/XF/ControllerPlugin/Login.php": "fdfd049e3b8e1068e5446487d5e857436caad1672bd013ec9ffcde545ca32e87",
     "src/addons/Fong/ExpandedResponseHeader/_data/activity_summary_definitions.xml": "99d8c2563a31320d66f958fc8bda78613545f5f7959bb3cf5318805e3a3c39d2",
     "src/addons/Fong/ExpandedResponseHeader/_data/admin_navigation.xml": "064ec797484ac00d5ee37367b50b06846d11f480d00550997712707f8fdac8c0",
     "src/addons/Fong/ExpandedResponseHeader/_data/admin_permission.xml": "ec6fb97cebf0bceb24f1ed1d5778c1db54eeb7535fbb3e31d824840e7aa9ff87",
